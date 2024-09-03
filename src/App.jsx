@@ -1,9 +1,11 @@
 import './App.scss';
+import Novel from "./Components/Novel.jsx";
 
 const App = () => {
   return (
-    <main className="App">
-    </main>
+    <div >
+      <Novel></Novel>
+    </div>
   );
 }
 

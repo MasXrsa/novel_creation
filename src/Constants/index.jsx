@@ -1,21 +1,17 @@
-import commander from "../assets/icon/commander.png";
-import dev from "../assets/icon/dev.png";
+import commander from "../Assets/icon/commander.png";
+import dev from "../Assets/icon/dev.png";
 
-export const MAIN = [
+export const NOVEL = [
     {
       image: dev,
-      title: "Spaghetti Carbonara",
-      description: "Creamy pasta with bacon and cheese",
+      title: "--DEV",
+      description: "WHAT IS OUR MISSION COMMANDER?",
+      possition: "left"
     },
     {
       image: commander,
-      title: "Chicken Tikka Masala",
-      description: "Indian curry with tender chicken in spicy sauce",
+      title: "COMMANDER--",
+      description: "Etiam posuere diam in purus dapibus, vitae consectetur nunc molestie. Quisque in quam vitae nisl euismod pretium et ac turpis. Sed congue magna vitae feugiat eleifend. Suspendisse a facilisis neque. Cras egestas nunc nisl, a sodales diam eleifend sit amet. Vivamus accumsan eros et magna commodo faucibus. Mauris nec turpis nisi.",
+      possition: "right"
     },
-    {
-      image: dish10,
-      title: "Tiramisu",
-      description:
-        "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
-    }
   ];

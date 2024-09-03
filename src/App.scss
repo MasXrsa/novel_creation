@@ -1,0 +1,87 @@
+
+
+.Novel {
+  padding-top: 150px;
+  background: rgba(0, 0, 0, 0.4)  url("../src/Assets/background/BG.svg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-blend-mode: darken;
+  height: 4000px;
+  .title{
+    color: #121212;
+    font: 1em Kode Mono;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: auto;
+    white-space: nowrap;
+  }
+  .speach{
+    padding: 40px;
+    color: #030653;
+    font: 1em Kode Mono;
+    font-weight: bold;
+  }
+  
+}
+
+.block{
+  align-items: stretch;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.left{
+  margin-left: 0em;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: left;
+  background-color: #8D5500;
+  max-height: 140px;
+  max-width: 75%;
+  min-width: 65% ;
+  display: flex;
+  img{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    justify-content: center;
+    bottom: 40px;
+    
+  }
+  .speach{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+}
+.right{
+  margin-left: auto;
+  margin-right: 0em;
+  text-align: right;
+  background-color: #FFA3A3;
+  max-width: 75%;
+  max-height: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  img{
+    height: 374px;
+    width: 300px;
+    position: relative;
+    justify-content: center;
+    bottom: 125px;
+    -webkit-filter: drop-shadow(0 4px black);
+    filter: drop-shadow(0 4px black);
+    
+  }
+  .speach{
+    text-align: left;
+    margin: auto;
+  }
+}
